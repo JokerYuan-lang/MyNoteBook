@@ -1,0 +1,19 @@
+port: 8080
+debug: true
+
+mysql:
+  host: 你的 MySQL 地址
+  port: 3306（一般都是3306）
+  user_name: 用户名
+  password: 密码
+  database: 数据库名称
+
+redis:
+  host: 你的 redis 地址
+  port: '6379'（一般都是6379）
+  password: 你的密码（没有就留空）
+  database: 0
+
+jwt:
+  secret: 你的密钥 自定义一个随机字符串（如 32 位随机字符）
+  expire: 24
